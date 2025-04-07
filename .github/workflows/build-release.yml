@@ -11,9 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Create Zip Archive
       - run: zip -r MemeSounds.zip BepInEx README.md icon.png manifest.json
-      - name: Upload Archive as Artifact
       - uses: actions/upload-artifact@v4
         with:
             name: ${{ inputs.version }}
