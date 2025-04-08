@@ -11,6 +11,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
       - run: zip -r MemeSounds.zip BepInEx README.md icon.png manifest.json
       - uses: actions/upload-artifact@v4
         with:
