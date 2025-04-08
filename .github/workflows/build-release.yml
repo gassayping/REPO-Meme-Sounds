@@ -19,5 +19,5 @@ jobs:
               BepInEx
               README.md
               icon.png
-              manifes.json
+              manifest.json
 
