@@ -1,7 +1,7 @@
 {
 	"name": "MemeSounds",
 	"author": "Gassayping",
-	"website_url": "https://github.com/gassayping",
+	"website_url": "https://github.com/gassayping/repo-meme-sounds",
 	"description": "Replaces enemies' sounds with those from memes.",
 	"version_number": "1.0.0",
 	"dependencies": [
