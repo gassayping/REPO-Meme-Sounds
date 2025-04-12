@@ -27,6 +27,20 @@
 					"sound": "crazy-frog.ogg"
 				}
 			]
+		},
+
+		{
+			"matches": [
+				"*:enemy tumbler hurt01",
+				"*:enemy tumbler hurt02",
+				"*:enemy tumbler hurt03"
+			],
+
+			"sounds": [
+				{
+					"sound": "bing.ogg"
+				}
+			]
 		}
 	]
 }
