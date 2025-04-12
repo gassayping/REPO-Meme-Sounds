@@ -41,6 +41,34 @@
 					"sound": "bing.ogg"
 				}
 			]
+		},
+
+		{
+			"matches": [
+				"*:headman bite start01",
+				"*:headman bite start02",
+				"*:headman bite start03"
+			],
+
+			"sounds": [
+				{
+					"sound": "hawk.ogg"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"*:headman bite end01",
+				"*:headman bite end02",
+				"*:headman bite end03"
+			],
+
+			"sounds": [
+				{
+					"sound": "tuah.ogg"
+				}
+			]
 		}
 	]
 }
