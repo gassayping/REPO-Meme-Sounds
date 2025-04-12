@@ -15,6 +15,18 @@
 					"sound": "you-need-to-leave.ogg"
 				}
 			]
+		},
+
+		{
+			"matches": [
+				"*:enemy tumbler tumble loop global"
+			],
+
+			"sounds": [
+				{
+					"sound": "crazy-frog.ogg"
+				}
+			]
 		}
 	]
 }
