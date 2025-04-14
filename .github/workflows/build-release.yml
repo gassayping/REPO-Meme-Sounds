@@ -25,6 +25,7 @@ jobs:
           name: MemeSounds
           version: ${{ inputs.version }}
           community: repo
+          file: MemeSounds.zip
           categories: |
             audio
             monsters
