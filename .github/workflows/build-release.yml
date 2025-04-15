@@ -1,11 +1,6 @@
 name: Build & Release Package
 
 on:
-  workflow_dispatch:
-    inputs:
-      version:
-        required: true
-        type: string
   push:
     tags:
       - v**
