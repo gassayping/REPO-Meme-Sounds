@@ -13,7 +13,7 @@ jobs:
       - run: zip -r MemeSounds.zip BepInEx README.md icon.png manifest.json
       - uses: actions/upload-artifact@v4
         with:
-            name: ${{ base_ref }}
+            name: ${{ github.ref_name }}
             path: MemeSounds.zip
       - uses: GreenTF/upload-thunderstore-package@v4.3
         with:
@@ -21,7 +21,7 @@ jobs:
           description: Replaces enemies' sounds with sounds from memes.
           token: ${{ secrets.THUNDERSTORE_API_TOKEN }}
           name: MemeSounds
-          version: ${{ base_ref }}
+          version: ${{ github.ref_name }}
           community: repo
           file: MemeSounds.zip
           repo: thunderstore.io
