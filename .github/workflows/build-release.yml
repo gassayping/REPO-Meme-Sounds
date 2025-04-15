@@ -26,6 +26,7 @@ jobs:
           version: ${{ inputs.version }}
           community: repo
           file: MemeSounds.zip
+          repo: thunderstore.io
           categories: |
             audio
             monsters
