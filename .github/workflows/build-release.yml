@@ -6,6 +6,9 @@ on:
       version:
         required: true
         type: string
+  push:
+    tags:
+      -[0-9].[0-9].[0-9]
 
 jobs:
   build:
@@ -15,7 +18,7 @@ jobs:
       - run: zip -r MemeSounds.zip BepInEx README.md icon.png manifest.json
       - uses: actions/upload-artifact@v4
         with:
-            name: ${{ inputs.version }}
+            name: ${{ base_ref }}
             path: MemeSounds.zip
       - uses: GreenTF/upload-thunderstore-package@v4.3
         with:
@@ -23,7 +26,7 @@ jobs:
           description: Replaces enemies' sounds with sounds from memes.
           token: ${{ secrets.THUNDERSTORE_API_TOKEN }}
           name: MemeSounds
-          version: ${{ inputs.version }}
+          version: ${{ base_ref }}
           community: repo
           file: MemeSounds.zip
           repo: thunderstore.io
