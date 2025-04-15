@@ -1,6 +1,7 @@
 {
 	"replacements": [
 		{
+			//ISSUE Sometimes plays both bc scream0n and global0n play at the same time
 			"matches": [
 				"*:enemy upscream scream01",
 				"*:enemy upscream scream02",
@@ -12,7 +13,13 @@
 
 			"sounds": [
 				{
-					"sound": "you-need-to-leave.ogg"
+					"sound": "you-need-to-leave.ogg",
+					"weight": 1
+				},
+
+				{
+					"sound": "get-out.ogg",
+					"weight": 1
 				}
 			]
 		},
