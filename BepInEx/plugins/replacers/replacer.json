@@ -76,6 +76,18 @@
 					"sound": "tuah.ogg"
 				}
 			]
+		},
+
+		{
+			"matches": [
+				"*:enemy ceiling eye staring start"
+			],
+
+			"sounds": [
+				{
+					"sound": "blue-lobster.ogg"
+				}
+			]
 		}
 	]
 }
