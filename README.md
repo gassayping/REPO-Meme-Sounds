@@ -9,3 +9,5 @@ Replaces certain sounds from monsters to be sounds from memes.
 - Chef: Plays "Crazy Frog" while attacking. Says "Bing" when damaged.
 
 - Headman: Says "Hawk Tuah" as he bites
+
+- Eye: Plays the blue lobster sound effect when it catches a player
