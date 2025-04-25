@@ -88,6 +88,19 @@
 					"sound": "blue-lobster.ogg"
 				}
 			]
+		},
+
+		{
+			"matches": [
+				"*:enemy robe attack_short",
+				"*:enemy robe attack_short_global"
+			],
+
+			"sounds": [
+				{
+					"sound": "is-that-the-grim-reaper.ogg"
+				}
+			]
 		}
 	]
 }
