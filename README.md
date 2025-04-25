@@ -11,3 +11,6 @@ Replaces certain sounds from monsters to be sounds from memes.
 - Headman: Says "Hawk Tuah" as he bites
 
 - Eye: Plays the blue lobster sound effect when it catches a player
+
+- Robe: Says "is that the grim reaper" when it does a scream attack
+
