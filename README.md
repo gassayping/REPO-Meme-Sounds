@@ -14,3 +14,5 @@ Replaces certain sounds from monsters to be sounds from memes.
 
 - Robe: Says "is that the grim reaper" when it does a scream attack
 
+- Spewer: Plays Buddy Holly - Weezer when puking and attaching to player
+
