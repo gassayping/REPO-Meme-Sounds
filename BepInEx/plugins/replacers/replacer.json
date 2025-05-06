@@ -101,6 +101,30 @@
 					"sound": "is-that-the-grim-reaper.ogg"
 				}
 			]
+		},
+
+		{
+			"matches": [
+				"*:enemy slow mouth attach to face"
+			],
+
+			"sounds": [
+				{
+					"sound": "riff.ogg"
+				}
+			]
+		},
+
+		{
+			"matches": [
+				"*:enemy slow mouth puke loop"
+			],
+
+			"sounds": [
+				{
+					"sound": "weezer-buddy-holly.ogg"
+				}
+			]
 		}
 	]
 }
